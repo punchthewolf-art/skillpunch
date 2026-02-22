@@ -63,6 +63,18 @@
       "description": "Obtenez des estimations salariales bas\u00e9es sur votre combinaison unique de comp\u00e9tences."
     }
   },
+  "pricing": {
+    "title": "Simple & Transparent",
+    "freeTitle": "Analyse Gratuite",
+    "freePrice": "0\u20ac",
+    "freeFeatures": ["Score d'employabilit\u00e9", "Radar de comp\u00e9tences", "Forces & lacunes", "Pr\u00e9diction carri\u00e8re"],
+    "freeCta": "C'est inclus !",
+    "premiumTitle": "Rapport Complet",
+    "premiumPrice": "9,99\u20ac",
+    "premiumOnce": "paiement unique",
+    "premiumFeatures": ["Tout le gratuit +", "Estimation salariale", "Formations recommand\u00e9es", "Comparaison march\u00e9"],
+    "premiumCta": "Disponible apr\u00e8s analyse"
+  },
   "footer": {
     "copyright": "SkillPunch. Tous droits r\u00e9serv\u00e9s.",
     "discover": "D\u00e9couvrez nos autres outils",

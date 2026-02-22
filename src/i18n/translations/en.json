@@ -63,6 +63,18 @@
       "description": "Get data-driven salary estimates based on your unique skill combination."
     }
   },
+  "pricing": {
+    "title": "Simple & Transparent",
+    "freeTitle": "Free Analysis",
+    "freePrice": "\u20AC0",
+    "freeFeatures": ["Employability score", "Skill radar", "Top skills & gaps", "Career prediction"],
+    "freeCta": "Included!",
+    "premiumTitle": "Full Report",
+    "premiumPrice": "\u20AC9.99",
+    "premiumOnce": "one-time payment",
+    "premiumFeatures": ["Everything free +", "Salary estimate", "Recommended formations", "Market comparison"],
+    "premiumCta": "Available after analysis"
+  },
   "footer": {
     "copyright": "SkillPunch. All rights reserved.",
     "discover": "Discover our other tools",

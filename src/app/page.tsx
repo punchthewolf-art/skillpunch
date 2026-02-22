@@ -636,6 +636,48 @@ export default function Home() {
             </div>
           </motion.section>
         )}
+
+        {/* Pricing Section */}
+        {!result && (
+          <motion.section
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2, duration: 0.6 }}
+            className="mb-16"
+          >
+            <h2 className="mb-10 text-center text-2xl font-bold sm:text-3xl">
+              <span className="gradient-text-cyan">{t("pricing.title")}</span>
+            </h2>
+            <div className="grid gap-6 sm:grid-cols-2 max-w-2xl mx-auto">
+              <div className="glass rounded-2xl p-6 border border-white/10">
+                <h3 className="text-lg font-bold mb-1">{t("pricing.freeTitle")}</h3>
+                <p className="text-3xl font-black gradient-text-cyan mb-4">{t("pricing.freePrice")}</p>
+                <ul className="space-y-2 mb-6">
+                  {(t("pricing.freeFeatures") as unknown as string[]).map((f: string, i: number) => (
+                    <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
+                      <span className="text-green-400">{"\u2713"}</span> {f}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-xs text-gray-500 text-center">{t("pricing.freeCta")}</p>
+              </div>
+              <div className="glass rounded-2xl p-6 border border-cyan-400/50 glow-cyan relative">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-blue-600 text-xs font-bold px-3 py-1 rounded-full text-white">PREMIUM</div>
+                <h3 className="text-lg font-bold mb-1 mt-2">{t("pricing.premiumTitle")}</h3>
+                <p className="text-3xl font-black gradient-text-cyan mb-1">{t("pricing.premiumPrice")}</p>
+                <p className="text-xs text-gray-500 mb-4">{t("pricing.premiumOnce")}</p>
+                <ul className="space-y-2 mb-6">
+                  {(t("pricing.premiumFeatures") as unknown as string[]).map((f: string, i: number) => (
+                    <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
+                      <span className="text-cyan-400">{"\u2713"}</span> {f}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-xs text-gray-500 text-center">{t("pricing.premiumCta")}</p>
+              </div>
+            </div>
+          </motion.section>
+        )}
       </main>
 
       <Footer />
