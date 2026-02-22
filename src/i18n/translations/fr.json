@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "SkillPunch",
+    "tagline": "Scannez votre CV. D\u00e9couvrez vos super-pouvoirs."
+  },
+  "hero": {
+    "title": "Scannez votre CV. D\u00e9couvrez vos super-pouvoirs.",
+    "subtitle": "Analyse de comp\u00e9tences par IA qui r\u00e9v\u00e8le vos forces, vos lacunes et votre valeur march\u00e9 en quelques secondes.",
+    "badge": "Analyse CV par IA"
+  },
+  "form": {
+    "uploadLabel": "T\u00e9l\u00e9chargez votre CV (PDF)",
+    "uploadButton": "Choisir un fichier PDF",
+    "uploadHint": "Format PDF, max 5 Mo",
+    "or": "OU",
+    "pasteLabel": "Collez le texte de votre CV",
+    "pastePlaceholder": "Collez le contenu de votre CV ici...",
+    "analyzeButton": "Analyser mon CV",
+    "analyzing": "Analyse de vos comp\u00e9tences en cours...",
+    "errorEmpty": "Veuillez t\u00e9l\u00e9charger un PDF ou coller le texte de votre CV.",
+    "errorAnalysis": "Une erreur est survenue lors de l'analyse. Veuillez r\u00e9essayer."
+  },
+  "result": {
+    "title": "Votre Rapport SkillPunch",
+    "score": "Score d'Employabilit\u00e9",
+    "scoreOut": "/ 100",
+    "topSkills": "Vos Comp\u00e9tences Phares",
+    "gaps": "Lacunes \u00e0 Combler",
+    "radar": "Votre Radar de Comp\u00e9tences",
+    "prediction": "Pr\u00e9diction de Carri\u00e8re",
+    "salaryEstimate": "Estimation Salariale",
+    "formations": "Formations Recommand\u00e9es",
+    "marketComparison": "Comparaison March\u00e9",
+    "premiumLock": "D\u00e9bloquer avec Premium",
+    "premiumCta": "D\u00e9bloquer le Rapport Complet",
+    "premiumPrice": "9,99",
+    "premiumDescription": "Obtenez des estimations salariales, des recommandations de formation personnalis\u00e9es et des comparaisons de march\u00e9 d\u00e9taill\u00e9es.",
+    "shareTitle": "Partagez vos r\u00e9sultats",
+    "shareTwitter": "Partager sur X",
+    "shareLinkedin": "Partager sur LinkedIn",
+    "newAnalysis": "Nouvelle Analyse",
+    "demandHigh": "Forte demande",
+    "demandMedium": "Demande moyenne",
+    "demandLow": "Faible demande",
+    "category": "Cat\u00e9gorie"
+  },
+  "features": {
+    "title": "Pourquoi SkillPunch ?",
+    "feature1": {
+      "title": "D\u00e9tection IA des Comp\u00e9tences",
+      "description": "L'IA avanc\u00e9e identifie chaque comp\u00e9tence de votre CV, m\u00eame celles que vous ignoriez."
+    },
+    "feature2": {
+      "title": "Comparaison March\u00e9",
+      "description": "Voyez comment vos comp\u00e9tences se positionnent face aux demandes actuelles du march\u00e9."
+    },
+    "feature3": {
+      "title": "Analyse des Lacunes",
+      "description": "D\u00e9couvrez exactement quelles comp\u00e9tences d\u00e9velopper pour booster vos opportunit\u00e9s."
+    },
+    "feature4": {
+      "title": "Insights Salariaux",
+      "description": "Obtenez des estimations salariales bas\u00e9es sur votre combinaison unique de comp\u00e9tences."
+    }
+  },
+  "footer": {
+    "copyright": "SkillPunch. Tous droits r\u00e9serv\u00e9s.",
+    "discover": "D\u00e9couvrez nos autres outils",
+    "roastmyresume": "Roast My Resume",
+    "roastmyresumeDesc": "Un feedback CV brutalement honn\u00eate",
+    "copypunch": "CopyPunch",
+    "copypunchDesc": "Copywriting IA qui convertit",
+    "astrocareer": "AstroPunch",
+    "astrocareerDesc": "Votre guide de carri\u00e8re astrologique",
+    "graphotype": "GraphoPunch",
+    "graphotypeDesc": "Analyse de personnalit\u00e9 par l'\u00e9criture"
+  }
+}

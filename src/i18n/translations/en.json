@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "SkillPunch",
+    "tagline": "Scan your CV. Discover your super-powers."
+  },
+  "hero": {
+    "title": "Scan your CV. Discover your super-powers.",
+    "subtitle": "AI-powered skill analysis that reveals your strengths, gaps, and market value in seconds.",
+    "badge": "AI-Powered CV Analysis"
+  },
+  "form": {
+    "uploadLabel": "Upload your CV (PDF)",
+    "uploadButton": "Choose PDF file",
+    "uploadHint": "PDF format, max 5MB",
+    "or": "OR",
+    "pasteLabel": "Paste your CV text",
+    "pastePlaceholder": "Paste the content of your CV here...",
+    "analyzeButton": "Analyze my CV",
+    "analyzing": "Analyzing your skills...",
+    "errorEmpty": "Please upload a PDF or paste your CV text.",
+    "errorAnalysis": "An error occurred during analysis. Please try again."
+  },
+  "result": {
+    "title": "Your SkillPunch Report",
+    "score": "Employability Score",
+    "scoreOut": "/ 100",
+    "topSkills": "Your Top Skills",
+    "gaps": "Skill Gaps to Address",
+    "radar": "Your Skill Radar",
+    "prediction": "Career Prediction",
+    "salaryEstimate": "Salary Estimate",
+    "formations": "Recommended Formations",
+    "marketComparison": "Market Comparison",
+    "premiumLock": "Unlock with Premium",
+    "premiumCta": "Unlock Full Report",
+    "premiumPrice": "9.99",
+    "premiumDescription": "Get salary estimates, personalized training recommendations, and detailed market comparisons.",
+    "shareTitle": "Share your results",
+    "shareTwitter": "Share on X",
+    "shareLinkedin": "Share on LinkedIn",
+    "newAnalysis": "New Analysis",
+    "demandHigh": "High demand",
+    "demandMedium": "Medium demand",
+    "demandLow": "Low demand",
+    "category": "Category"
+  },
+  "features": {
+    "title": "Why SkillPunch?",
+    "feature1": {
+      "title": "AI Skill Detection",
+      "description": "Advanced AI identifies every skill in your CV, even the ones you didn't know you had."
+    },
+    "feature2": {
+      "title": "Market Comparison",
+      "description": "See how your skills stack up against current job market demands in real-time."
+    },
+    "feature3": {
+      "title": "Gap Analysis",
+      "description": "Discover exactly which skills to develop to boost your career opportunities."
+    },
+    "feature4": {
+      "title": "Salary Insights",
+      "description": "Get data-driven salary estimates based on your unique skill combination."
+    }
+  },
+  "footer": {
+    "copyright": "SkillPunch. All rights reserved.",
+    "discover": "Discover our other tools",
+    "roastmyresume": "Roast My Resume",
+    "roastmyresumeDesc": "Get brutally honest CV feedback",
+    "copypunch": "CopyPunch",
+    "copypunchDesc": "AI copywriting that converts",
+    "astrocareer": "AstroPunch",
+    "astrocareerDesc": "Your astrological career guide",
+    "graphotype": "GraphoPunch",
+    "graphotypeDesc": "Handwriting personality analysis"
+  }
+}

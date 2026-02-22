@@ -1,5 +1,5 @@
 {
-  "name": "skillradar",
+  "name": "skillpunch",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@stripe/stripe-js": "^8.8.0",
+    "framer-motion": "^12.34.3",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "stripe": "^20.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
