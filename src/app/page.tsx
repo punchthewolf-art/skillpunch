@@ -653,7 +653,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold mb-1">{t("pricing.freeTitle")}</h3>
                 <p className="text-3xl font-black gradient-text-cyan mb-4">{t("pricing.freePrice")}</p>
                 <ul className="space-y-2 mb-6">
-                  {(t("pricing.freeFeatures") as unknown as string[]).map((f: string, i: number) => (
+                  {(Array.isArray(t("pricing.freeFeatures")) ? t("pricing.freeFeatures") as unknown as string[] : []).map((f: string, i: number) => (
                     <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
                       <span className="text-green-400">{"\u2713"}</span> {f}
                     </li>
@@ -667,7 +667,7 @@ export default function Home() {
                 <p className="text-3xl font-black gradient-text-cyan mb-1">{t("pricing.premiumPrice")}</p>
                 <p className="text-xs text-gray-500 mb-4">{t("pricing.premiumOnce")}</p>
                 <ul className="space-y-2 mb-6">
-                  {(t("pricing.premiumFeatures") as unknown as string[]).map((f: string, i: number) => (
+                  {(Array.isArray(t("pricing.premiumFeatures")) ? t("pricing.premiumFeatures") as unknown as string[] : []).map((f: string, i: number) => (
                     <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
                       <span className="text-cyan-400">{"\u2713"}</span> {f}
                     </li>
